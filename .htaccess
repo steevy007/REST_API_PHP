@@ -4,3 +4,4 @@ RewriteRule api/Formations api/Formations.php
 RewriteRule api/CreateFormation api/CreateFormation.php
 RewriteRule api/DeleteFormation api/DeleteFormation.php
 RewriteRule api/UpdateFormation api/UpdateFormation.php
+RewriteRule api/MultiCreateFormation api/MultiCreateFormation.php

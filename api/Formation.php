@@ -21,7 +21,6 @@ if($_SERVER['REQUEST_METHOD']==='GET'){
                 'categorie_id'=>$data->categorie_id
             );
         }
-    
         if($stmt->rowCount()==1){
             echo json_encode($formation_item);
         }else{
